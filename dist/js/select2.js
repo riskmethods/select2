@@ -1,5 +1,5 @@
 /*!
- * Select2 4.0.5
+ * Select2 4.0.5.1
  * https://select2.github.io
  *
  * Released under the MIT license
@@ -1619,7 +1619,7 @@ S2.define('select2/selection/multiple',[
     });
 
     this.$selection.on(
-      'click',
+      'mousedown',
       '.select2-selection__choice__remove',
       function (evt) {
         // Ignore the event if it is disabled

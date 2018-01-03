@@ -33,7 +33,7 @@ define([
     });
 
     this.$selection.on(
-      'click',
+      'mousedown',
       '.select2-selection__choice__remove',
       function (evt) {
         // Ignore the event if it is disabled
